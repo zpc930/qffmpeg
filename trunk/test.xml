@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<VideoProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>1P-Goodquality</Name>
+  <Settings xsi:type="x264Settings">
+    <EncodingMode>0</EncodingMode>
+    <BitrateQuantizer>1000</BitrateQuantizer>
+    <KeyframeInterval>250</KeyframeInterval>
+    <NbBframes>3</NbBframes>
+    <MinQuantizer>10</MinQuantizer>
+    <MaxQuantizer>51</MaxQuantizer>
+    <Turbo>false</Turbo>
+    <V4MV>false</V4MV>
+    <QPel>false</QPel>
+    <Trellis>false</Trellis>
+    <CreditsQuantizer>40</CreditsQuantizer>
+    <Logfile>.stats</Logfile>
+    <CustomEncoderOptions />
+    <FourCC>1</FourCC>
+    <Zones />
+    <MaxNumberOfPasses>3</MaxNumberOfPasses>
+    <NbThreads>1</NbThreads>
+    <NoDCTDecimate>false</NoDCTDecimate>
+    <PSNRCalculation>false</PSNRCalculation>
+    <noFastPSkip>false</noFastPSkip>
+    <NoiseReduction>0</NoiseReduction>
+    <MixedRefs>false</MixedRefs>
+    <X264Trellis>1</X264Trellis>
+    <NbRefFrames>3</NbRefFrames>
+    <AlphaDeblock>0</AlphaDeblock>
+    <BetaDeblock>0</BetaDeblock>
+    <SubPelRefinement>5</SubPelRefinement>
+    <MaxQuantDelta>4</MaxQuantDelta>
+    <TempQuantBlur>0</TempQuantBlur>
+    <BframePredictionMode>1</BframePredictionMode>
+    <VBVBufferSize>-1</VBVBufferSize>
+    <VBVMaxBitrate>25000</VBVMaxBitrate>
+    <METype>1</METype>
+    <MERange>16</MERange>
+    <MinGOPSize>25</MinGOPSize>
+    <Profile>2</Profile>
+    <Level>15</Level>
+    <IPFactor>1.4</IPFactor>
+    <PBFactor>1.3</PBFactor>
+    <ChromaQPOffset>0</ChromaQPOffset>
+    <VBVInitialBuffer>0.9</VBVInitialBuffer>
+    <BitrateVariance>1.0</BitrateVariance>
+    <QuantCompression>0.6</QuantCompression>
+    <TempComplexityBlur>20</TempComplexityBlur>
+    <TempQuanBlurCC>0.5</TempQuanBlurCC>
+    <SCDSensitivity>40</SCDSensitivity>
+    <BframeBias>0</BframeBias>
+    <Deblock>true</Deblock>
+    <Cabac>true</Cabac>
+    <WeightedBPrediction>true</WeightedBPrediction>
+    <AdaptiveBFrames>true</AdaptiveBFrames>
+    <BFramePyramid>true</BFramePyramid>
+    <BRDO>true</BRDO>
+    <biME>true</biME>
+    <ChromaME>true</ChromaME>
+    <P8x8mv>true</P8x8mv>
+    <B8x8mv>true</B8x8mv>
+    <I4x4mv>true</I4x4mv>
+    <I8x8mv>true</I8x8mv>
+    <P4x4mv>true</P4x4mv>
+    <AdaptiveDCT>true</AdaptiveDCT>
+    <Lossless>false</Lossless>
+    <QuantizerMatrix />
+    <QuantizerMatrixType>0</QuantizerMatrixType>
+  </Settings>
+</VideoProfile>
