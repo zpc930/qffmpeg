@@ -1,0 +1,1 @@
+QFFmpeg is an FFmpeg frontend with support for MeGUI profiles
